@@ -1,5 +1,5 @@
 # "Machine Learning" at UMONS
-This is a repository to organize the teaching material for [Big Data Analytics I](http://applications.umons.ac.be/web/fr/pde/2019-2020/ue/US-B3-SCINFO-019-M.htm), to be taught by [Souhaib Ben Taieb](http://www.souhaib-bentaieb.com).
+This is a repository to organize the teaching material for [Machine Learning](http://applications.umons.ac.be/web/fr/pde/2019-2020/ue/US-B3-SCINFO-019-M.htm), to be taught by [Souhaib Ben Taieb](http://www.souhaib-bentaieb.com).
 
 # Course links
 
