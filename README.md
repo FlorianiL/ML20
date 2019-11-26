@@ -8,59 +8,68 @@ This is a repository to organize the teaching material for [Big Data Analytics I
 # Content
 
 - Week 1. 
-	- Lecture 1 (Feb. 4): Introduction 
+	- Lecture 1 (Feb. 3): Introduction 
+	- Lecture 1 (Feb. 5): ? 
 - Week 2. 
-	- Lecture 2 (Feb. 12): Review of basic probability and statistics (see Moodle)
-	- Lecture 3 (Feb. 14): Review of basic probability and statistics (see Moodle)
-	- Lab 1 (Feb. 14): 
+	- Lecture 2 (Feb. 11): Review of basic probability and statistics (see Moodle)
+	- Lecture 3 (Feb. 12): Review of basic probability and statistics (see Moodle)
+	- Lab 1 (Feb. ?): 
 
 - Week 3. 
-	- Lecture 4 (Feb. 18): Review of basic probability and statistics (see Moodle)
-	- Lab 2 (Feb. 20): Introduction to R programming 
-	- Lecture 5 (Feb. 20): Review of basic probability and statistics (see Moodle)
+	- Lecture 4 (Feb. 17): Review of basic probability and statistics (see Moodle)
+	- Lab 2 (Feb. ??): Introduction to R programming 
+	- Lecture 5 (Feb. 21): Review of basic probability and statistics (see Moodle)
 
-- Week 4. 
-	**No lectures**.
+- Week 4. 	
+	- Lecture 5 (Feb. 25): Statistical learning (regression) 
+	- Lecture 6 (Feb. 27): Statistical learning (regression) 
+	- Lab 3 (??): 
+
 
 - Week 5. 
-	- Lecture 6 (Mar. 4): Statistical learning (regression) 
-	- Lab 3 (Mar. 4): 
-	- Lecture 7 (Mar. 8): Statistical learning (regression) 
-	- Lab 4 (Mar. 8): 
+	- Lecture 7 (Mar. 2): ?
+	- Lecture 8 (Mar. 6): ?
+	- Lab 4 (??): 
 	- *Assignment I*: Review of basic probability and statistics (due on Mar. 17, 23:55pm)
 
 - Week 6. 
-	**No lectures**.
+	- Lecture 9 (Mar. 9): ?
+	- Lecture 10 (Mar. 9): ?
 
 - Week 7. 
-	- Lecture 8 (Mar. 18): Statistical learning (classification) 
-	- Lecture 9 (Mar. 20): Linear regression 
-	- Lab 5 (Mar. 21): Statistical learning  
+	- Lecture 8 (Mar. 16): Statistical learning (classification) 
+	- Lecture 9 (Mar. 19): Linear regression 
+	- Lab 5 (Mar. ??): ??
 
 - Week 8. 
-	- Lecture 10 (Mar. 27): Logistic regression and LDA 
+	- Lecture 10 (Mar. 23): Logistic regression and LDA 
+	- Lecture 11 (Mar. 24): ??
 	- *Assignment II*: Regression (due on Apr. 7, 23:55pm) 
 
 - Week 9. 
-	- Lecture 11 (Apr. 1): Model assessment/selection and resampling methods 
-	- Lab 6b (Apr. 2): Regression, classification and model selection. 
+	- Lecture 12 (Mar. 30): Model assessment/selection and resampling methods
+	- Lab 6b (??): Regression, classification and model selection. 
 
 **Spring Break**
 
 - Week 10. 
-	- Lecture 12 (Apr. 23): Dimensionality reduction. 
-	- Lecture 13 (Apr. 24): Advanced regression.  
+	- Lecture 12 (Apr. 20): Dimensionality reduction. 
+	- Lecture 13 (Apr. 23): Advanced regression.  
 	- *Assignment III* (due on May 5, 23:55pm) 
 
 - Week 11. 
+	
 	- Lecture 14 (Apr. 29): Advanced classification (tree-based methods). 
-	- Lecture 15 (May. 2): Advanced classification (tree-based methods). Recap.
-	- Lab 8 (May. 3): Bootstrapping and Principal component analysis   
 
+	 
 - Week 12. 
+	- Lecture 14 (May. 6): ??
+	- Lecture 15 (May. 7): ??
 	- Lab 8 (May. 8): Advanced regression 
 	- *Assignment IV* (due on May 19, 23:55pm) Advanced classification 
 
+	#- Lecture 15 (May. ?): Advanced classification (tree-based methods). Recap.
+	#- Lab 8 (May. ?): Bootstrapping and Principal component analysis  
 
 
 
