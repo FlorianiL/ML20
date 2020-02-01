@@ -3,7 +3,7 @@ This is a repository to organize the teaching material for [Machine Learning](ht
 
 # Course links
 
-- [Moodle (for discussion forum, assignments)]()
+- [Moodle (for discussion forum, assignments)](https://moodle.umons.ac.be/course/view.php?id=2785)
 
 # Content
 
