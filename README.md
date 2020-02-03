@@ -5,6 +5,13 @@ This is a repository to organize the teaching material for [Machine Learning](ht
 
 - [Moodle (for discussion forum, assignments)](https://moodle.umons.ac.be/course/view.php?id=2785)
 
+# Useful reviews
+
+- [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf)
+- [Probability Theory Review for Machine Learning](https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf
+)
+-[Review of Probability Theory](http://cs229.stanford.edu/section/cs229-prob.pdf)
+
 # Content
 
 - Week 1. 
