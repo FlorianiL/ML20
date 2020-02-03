@@ -8,7 +8,7 @@ This is a repository to organize the teaching material for [Machine Learning](ht
 # Content
 
 - Week 1. 
-	- Lecture 1 (Feb. 3): Introduction 
+	- Lecture 1 (Feb. 3): [Introduction](slides/1-ml-introduction.pdf) 
 	- Lecture 2 (Feb. 5): Review 
 
 - Week 2. 
