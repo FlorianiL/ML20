@@ -12,7 +12,7 @@ This is a repository to organize the teaching material for [Machine Learning](ht
 - [Probability Theory Review for Machine Learning](https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf
 )
 
--[Review of Probability Theory](http://cs229.stanford.edu/section/cs229-prob.pdf)
+- [Review of Probability Theory](http://cs229.stanford.edu/section/cs229-prob.pdf)
 
 # Content
 
