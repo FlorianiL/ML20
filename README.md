@@ -1,7 +1,7 @@
 # "Machine Learning" at UMONS
 This is a repository to organize the teaching material for [Machine Learning](http://applications.umons.ac.be/web/fr/pde/2019-2020/ue/US-B3-SCINFO-019-M.htm), to be taught by [Souhaib Ben Taieb](http://www.souhaib-bentaieb.com).
 
-#  [DataCamp](#foo)
+# <a name="some-id"></a> DataCamp
 
 - [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 - [Intermediate R](https://www.datacamp.com/courses/intermediate-r)
@@ -36,7 +36,7 @@ Optional
 	- Lecture 2 (Feb. 5): Review of Probability and Statistics
 
 - Week 2. 
-	- Lab 1 (Feb. 11): Introduction to R programming [(see DataCamp)](#foo)
+	- Lab 1 (Feb. 11): Introduction to R programming [(see DataCamp)](#some-id)
 	- Lecture 3 (Feb. 12): Review of Probability and Statistics 
 
 - Week 3. 
