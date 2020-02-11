@@ -36,16 +36,16 @@ Optional
 	- Lecture 2 (Feb. 5): Review of Probability and Statistics
 
 - Week 2. 
-	- Lab 1 (Feb. 11): Introduction to R programming [(see DataCamp)](#some-id)
+	- Lab 1 (Feb. 11): Introduction to R programming (see DataCamp Section [here](#some-id))
 	- Lecture 3 (Feb. 12): Review of Probability and Statistics 
 
 - Week 3. 
-	- Lab 2 (Feb. 17): Introduction to R programming 
+	- Lab 2 (Feb. 17): Introduction to R programming (see DataCamp Section [here](#some-id))
 	with *Assignment I* (due on ?, 23:55pm)
 	- Lecture 4 (Feb. 21): 
 
 - Week 4. 	
-	- Lab 3 (Feb. 24): Introduction to R programming 
+	- Lab 3 (Feb. 24): 
 	- Lecture 5 (Feb. 27): 
 
 - Week 5. 
