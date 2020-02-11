@@ -1,6 +1,19 @@
 # "Machine Learning" at UMONS
 This is a repository to organize the teaching material for [Machine Learning](http://applications.umons.ac.be/web/fr/pde/2019-2020/ue/US-B3-SCINFO-019-M.htm), to be taught by [Souhaib Ben Taieb](http://www.souhaib-bentaieb.com).
 
+#  [DataCamp](#foo)
+
+- [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
+- [Intermediate R](https://www.datacamp.com/courses/intermediate-r)
+- [Introduction to the Tidyverse](https://www.datacamp.com/courses/introduction-to-the-tidyverse)
+
+Optional
+- [Introduction to Data Visualization with ggplot2](https://www.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2)
+- [Intermediate Data Visualization with ggplot2](https://www.datacamp.com/courses/intermediate-data-visualization-with-ggplot2)
+- [Data Manipulation with dplyr](https://www.datacamp.com/courses/data-manipulation-with-dplyr-in-r)
+
+
+
 ''This class is supported by [DataCamp](https://www.datacamp.com/), the most intuitive learning platform for data science. Learn R, Python and SQL the way you learn best through a combination of short expert videos and hands-on-the-keyboard exercises. Take over 100+ courses by expert instructors on topics such as importing data, data visualization or machine learning and learn faster through immediate and personalised feedback on every exercise.''
 
 # Course links
@@ -20,19 +33,19 @@ This is a repository to organize the teaching material for [Machine Learning](ht
 
 - Week 1. 
 	- Lecture 1 (Feb. 3): [Introduction](slides/1-ml-introduction.pdf) 
-	- Lecture 2 (Feb. 5): Review 
+	- Lecture 2 (Feb. 5): Review of Probability and Statistics
 
 - Week 2. 
-	- Lab 1 (Feb. 11): Introduction to R programming 
-	- Lecture 3 (Feb. 12): Review 
+	- Lab 1 (Feb. 11): Introduction to R programming [(see DataCamp)](#foo)
+	- Lecture 3 (Feb. 12): Review of Probability and Statistics 
 
 - Week 3. 
-	- Lab 2 (Feb. 17): 
+	- Lab 2 (Feb. 17): Introduction to R programming 
 	with *Assignment I* (due on ?, 23:55pm)
 	- Lecture 4 (Feb. 21): 
 
 - Week 4. 	
-	- Lab 3 (Feb. 24): 
+	- Lab 3 (Feb. 24): Introduction to R programming 
 	- Lecture 5 (Feb. 27): 
 
 - Week 5. 
