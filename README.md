@@ -42,10 +42,10 @@ Optional
 - Week 3. 
 	- Lab 2 (Feb. 17): Introduction to R programming (see DataCamp Section [here](#some-id))
 	- *Assignment I* (due on ?, 23:55pm)
-	- Lecture 4 (Feb. 21): 
 
 - Week 4. 	
 	- Lab 3 (Feb. 24): 
+	- Lecture 4 (Feb. 24): 
 	- Lecture 5 (Feb. 27): 
 
 - Week 5. 
