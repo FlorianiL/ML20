@@ -32,7 +32,7 @@ Optional
 # Content
 
 - Week 1. 
-	- Lecture 1 (Feb. 3): Introduction [slides](slides/1-ml-introduction.pdf) 
+	- Lecture 1 (Feb. 3): Introduction [[slides]](slides/1-ml-introduction.pdf) 
 	- Lecture 2 (Feb. 5): Review of Probability and Statistics
 
 - Week 2. 
@@ -44,7 +44,7 @@ Optional
 
 - Week 4. 	
 	- *Assignment I* (due on March 8, 23:55pm): 
-	- Lab 3 (Feb. 24): Exploratory Data Analysis [pdf](labs/1-eda.pdf)
+	- Lab 3 (Feb. 24): Exploratory Data Analysis [[pdf]](labs/1-eda.pdf)
 	- Lecture 4 (Feb. 24): 
 	- Lecture 5 (Feb. 27): 
 
