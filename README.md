@@ -41,19 +41,19 @@ Optional
 
 - Week 3. 
 	- Lab 2 (Feb. 17): Introduction to R programming (see DataCamp Section [here](#some-id))
-	- *Assignment I* (due on ?, 23:55pm)
 
 - Week 4. 	
-	- Lab 3 (Feb. 24): 
+	- *Assignment I* (due on March 8, 23:55pm): 
+	- Lab 3 (Feb. 24): [Exploratory Data Analysis](labs/1-eda.pdf)
 	- Lecture 4 (Feb. 24): 
 	- Lecture 5 (Feb. 27): 
 
 - Week 5. 
 	- Lab 4 (Mar. 2): 
-	- *Assignment II* (due on ?, 23:55pm)
 	- Lecture 6 (Mar. 6): 
 
 - Week 6. 
+	- *Assignment II* (due on ?, 23:55pm)
 	- Lecture 7 (Mar. 9): 
 	- Lab 5 (Mar. 9): 
 
@@ -62,9 +62,9 @@ Optional
 	- Lecture 9 (Mar. 20):  
 
 - Week 8. 
+	- *Assignment III* (due on ?, 23:55pm) 
 	- Lecture 10 (Mar. 23): 
 	- Lab 6 (Mar. 24): 
-	- *Assignment III* (due on ?, 23:55pm) 
 
 - Week 9. 
 	- Lecture 11 (Mar. 30): 
@@ -72,9 +72,9 @@ Optional
 **Spring Break**
 
 - Week 10. 
+	- *Assignment IV* (due on ?, 23:55pm)
 	- Lecture 12 (Apr. 20): 
 	- Lecture 13 (Apr. 24): 
-	- *Assignment IV* (due on ?, 23:55pm)
 
 - Week 11. 
 	- Lecture 14 (Apr. 29): 
