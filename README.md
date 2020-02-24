@@ -44,7 +44,7 @@ Optional
 
 - Week 4. 	
 	- *Assignment I* (due on March 8, 23:55pm): 
-	- Lab 3 (Feb. 24): [Exploratory Data Analysis](labs/1-eda.pdf)
+	- Lab 3 (Feb. 24): Exploratory Data Analysis [pdf]](labs/1-eda.pdf)
 	- Lecture 4 (Feb. 24): 
 	- Lecture 5 (Feb. 27): 
 
