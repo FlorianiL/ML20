@@ -49,7 +49,7 @@ Optional
 	- Lab 2 (Feb. 17): Introduction to R programming (see DataCamp Section [here](#some-id))
 
 - Week 4. 	
-	- *Assignment I* (due on March 8, 23:55pm): Review [[pdf]](assignemnts/1-reviews.pdf)
+	- *Assignment I* (due on March 8, 23:55pm): Reviews [[pdf]](assignments/1-reviews.pdf)
 	- Lab 3 (Feb. 24): Exploratory Data Analysis [[pdf]](labs/1-eda.pdf)
 	- Lecture 4 (Feb. 24): 
 	- Lecture 5 (Feb. 27): 
