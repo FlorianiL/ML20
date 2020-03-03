@@ -39,11 +39,11 @@ Optional
 
 - Week 1. 
 	- Lecture 1 (Feb. 3): Introduction [[slides]](slides/1-ml-introduction.pdf) 
-	- Lecture 2 (Feb. 5): Review of Probability and Statistics
+	- Lecture 2 (Feb. 5): Review of Probability and Statistics (sample spaces and events, probability axioms and distributions, conditional probability, independence of events, Bayes' rule)
 
 - Week 2. 
 	- Lab 1 (Feb. 11): Introduction to R programming (see DataCamp Section [here](#some-id))
-	- Lecture 3 (Feb. 12): Review of Probability and Statistics 
+	- Lecture 3 (Feb. 12): Review of Probability and Statistics (random variables, distribution functions, density and mass functions, important discrete and continuous distributions, expectation, properties of expectations, bivariate distributions, independence, variance and covariance, conditional expectation and variance)
 
 - Week 3. 
 	- Lab 2 (Feb. 17): Introduction to R programming (see DataCamp Section [here](#some-id))
@@ -51,7 +51,7 @@ Optional
 - Week 4. 	
 	- *Assignment I* (due on March 8, 23:55pm): Reviews [[pdf]](assignments/1-reviews.pdf)
 	- Lab 3 (Feb. 24): Exploratory Data Analysis [[pdf]](labs/1-eda.pdf)
-	- Lecture 4 (Feb. 24): 
+	- Lecture 4 (Feb. 24): Review of Probability and Statistics (statistical inference, point estimation, bias and variance decomposition, maximum likelihood estimation)
 	- Lecture 5 (Feb. 27): 
 
 - Week 5. 
