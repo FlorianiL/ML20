@@ -52,7 +52,7 @@ Optional
 	- *Assignment I* (due on March 8, 23:55pm): Reviews [[pdf]](assignments/1-reviews.pdf)
 	- Lab 3 (Feb. 24): Exploratory Data Analysis [[pdf]](labs/1-eda.pdf)
 	- Lecture 4 (Feb. 24): Review of Probability and Statistics (statistical inference, point estimation, bias and variance decomposition, maximum likelihood estimation)
-	- Lecture 5 (Feb. 27): Statistical learning [[slides]](slides/1-ml-statistical-learning.pdf) 
+	- Lecture 5 (Feb. 27): Statistical learning [[slides]](slides/2-ml-statistical-learning.pdf) 
 
 - Week 5. 
 	- Lecture 6 (Mar. 2): Statistical learning (continued) 
