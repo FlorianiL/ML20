@@ -59,20 +59,20 @@ Optional
 	- Lecture 7 (Mar. 6): Statistical learning (continued) 
 
 - Week 6. 
-	- *Assignment II* (due on ?, 23:55pm)
-	- Lecture 8 (Mar. 9): 
-	- Lab 4 (Mar. 9): 
+	- Lecture 8 (Mar. 9): Linear regression
+	- Lab 4 (Mar. 9): Statistical learning [[pdf]](labs/4-statistical-learning.pdf)
 
 - Week 7. 
+	- *Assignment II* (due on ?, 23:55pm)
 	- Lecture 8 (Mar. 16): 
 	- Lab 5 (Mar. 20):  
 
 - Week 8. 
-	- *Assignment III* (due on ?, 23:55pm) 
 	- Lecture 10 (Mar. 23): 
 	- Lab 6 (Mar. 24): 
 
 - Week 9. 
+	- *Assignment III* (due on ?, 23:55pm) 
 	- Lecture 11 (Mar. 30): 
 
 **Spring Break**
