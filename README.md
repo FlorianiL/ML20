@@ -63,11 +63,11 @@ Optional
 	- Lab 4 (Mar. 9): Statistical learning [[pdf]](labs/4-statistical-learning.pdf)
 
 - Week 7. 
-	- *Assignment II* (due on ?, 23:55pm)
-	- Lecture 8 (Mar. 16): 
-	- Lab 5 (Mar. 20):  
+	- Lecture 8 (Mar. 16): Linear regression (continued)
+	- Lab 5 (Mar. 20):  Linear regression
 
 - Week 8. 
+	- *Assignment II* (due on ?, 23:55pm)
 	- Lecture 10 (Mar. 23): 
 	- Lab 6 (Mar. 24): 
 
