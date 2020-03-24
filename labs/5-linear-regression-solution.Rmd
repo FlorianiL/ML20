@@ -1,0 +1,252 @@
+---
+title: "Machine Learning - Lab 5 - Solution"
+subtitle: "Linear regression"
+author: "Souhaib BEN TAIEB"
+date: "9 March 2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, warning = FALSE}
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE, 
+  collapse = TRUE,
+  comment = "#",
+  fig.height = 4,
+  fig.width = 8,
+  fig.align = "center",
+  cache = FALSE
+)
+```
+
+# Simple Linear Regression
+
+### Exercise 1
+
+We observe a dataset $\mathcal{D} = \{(y_i, x_i)\}_{i=1}^n$ where $y_i, x_i \in \mathbb{R}$. We consider the following optimization problem:
+\[
+\underset{\beta_0, \beta_1 \in \mathbb{R}}{\operatorname{Minimize}}~  \text{RSS}(\beta_0, \beta_1), \label{eq:problem}
+\]
+where
+\[
+\text{RSS}(\beta_0, \beta_1) =\sum_{i = 1}^n (y_i - \beta_0 - \beta_1 x_i)^2.
+\]
+
+The solution to the previous optimization problem is given by 
+\begin{align*}
+\hat{\beta}_1 &= \frac{\sum_{i = 1}^n (x_i - \bar{x}) (y_i - \bar{y})}{\sum_{i = 1}^n (x_i - \bar{x})^2},   \\
+\hat{\beta}_0 &= \bar{y} - \hat{\beta}_1 \bar{x}.
+\end{align*}
+where $\bar{y} = \frac1n \sum_i y_i$ and $\bar{x} = \frac1n \sum_i x_i$.
+
+We ask you to prove that $(\hat{\beta}_0, \hat{\beta}_1)$ can be derived by solving the following equations
+\begin{align*}
+\frac{\partial \text{RSS}}{\partial \beta_0} &= 0, \\
+\frac{\partial \text{RSS}}{\partial \beta_1} &= 0.
+\end{align*}
+
+Solution:
+
+\begin{align*}
+\frac{\partial \text{RSS}}{\partial \beta_0} &= -2 \sum_i (y_i - (\beta_0 + \beta_1 x_i)) = 0, \\
+\frac{\partial \text{RSS}}{\partial \beta_1} &= -2 \sum_i x_i (y_i - (\beta_0 + \beta_1 x_i)) = 0
+\end{align*}
+
+\begin{align*}
+\sum_i y_i &= n \beta_0 + \beta_1 \sum_i x_i, \\
+\sum_i x_i y_i &= -2 \sum_i x_i (y_i - (\beta_0 + \beta_1 x_i)) = 0
+\end{align*}
+
+\begin{align*}
+\hat{\beta}_0 &= \bar{y} - \hat{\beta}_1 \bar{x} \\
+\hat{\beta}_1 &= \frac{n \sum_i x_i y_i - (\sum_i x_i) (\sum_i y_i)}{n \sum_i x_i^2 - (\sum_i x_i)^2 }
+\end{align*}
+
+Using the following equalities proves the result.
+\begin{align*}
+\sum_i (x_i - \bar{x})^2 &= \sum_i x_i^2 - n \bar{x}^2 \\
+\sum_i (x_i - \bar{x})  (y_i - \bar{y}) &= \sum_i x_i y_i - n \bar{x} \bar{y}
+\end{align*}
+
+
+### Exercise 2
+
+Do Exercise 5 in Chapter 3.7 of ISLR.
+
+We have $\hat{y}_i = x_i \hat{\beta}$ and $\hat{\beta} = (\sum_{i=1}^n x_i y_i) / (\sum_{i'=1}^n x_i'^2)$
+
+\begin{align}
+\hat{y}_i &= x_i \frac{\sum_{i=1}^n x_i y_i}{\sum_{i'=1}^n x_i'^2} \\
+&= x_i \frac{\sum_{i'=1}^n x_{i'} y_{i'}}{\sum_{k=1}^n x_k^2} \\
+&=  \sum_{i'=1}^n \frac{x_i x_{i'}}{\sum_{k=1}^n x_k^2} y_{i'} \\
+\end{align}
+
+$\implies a_{i'} = \frac{x_i x_{i'}}{\sum_{k=1}^n x_k^2}$.
+
+
+
+# Multiple Linear Regression
+
+### Exercise 4
+
+Do Exercise 3 in Chapter 3.7 of ISLR.
+
+Salary = 50 + 20 GPA + 0.07 IQ + 35 Gender + 0.01 (GPA * IQ) - 10 (GPA * Gender)
+
+- (a) 
+
+Male: (Gender = 0)   
+
+Salary = 50 + 20 GPA_FIXED + 0.07 IQ_FIXED + 0.01 (GPA_FIXED * IQ_FIXED)
+
+Female: (Gender = 1) 
+
+Salary = 50 + 20 GPA_FIXED + 0.07 IQ_FIXED + 0.01 (GPA_FIXED * IQ_FIXED) + 35 - 10 GPA_FIXED
+
+When GPA_FIXED > 3.5, males earn more than females on average (iii).
+
+- (b) Gender = 1, IQ = 110, GPA = 4.0
+
+Salary = 50 + 20 * 4 + 0.07 * 110 + 35 + 0.01 (4 * 110) - 10 * 4 = 137.1
+
+- (c)
+
+False. We must examine the p-value of the regression coefficient to
+determine if the interaction term is statistically significant or not.
+
+### Exercise 5
+
+Read and run the code in Sections 3.6.1 to 3.6.6 of ISLR. The goal is to understand the different R functions to fit and analyze linear models.
+
+## Exercise 6
+
+Do Exercise 13 in Chapter 3.7 of ISLR.
+
+```{r}
+set.seed(1)
+x <- rnorm(100)
+eps <- rnorm(100, 0, sqrt(0.25))
+y <- -1 + 0.5*x + eps
+
+print(length(y))
+
+plot(x,y)
+
+```
+
+```{r}
+lm.fit <- lm(y~x)
+summary(lm.fit)
+```
+
+The linear regression fits a model close to the true value of the coefficients. The model has a large F-statistic with a near-zero p-value so the null hypothesis can be rejected.
+
+
+```{r}
+plot(x, y)
+abline(lm.fit, col = 'red')
+abline(-1, 0.5, col = 'blue')
+legend('topleft', legend = c('model', 'population'), col = c('red', 'blue'), lty = 1)
+```
+
+```{r}
+lm.fit_sq = lm(y~x+I(x^2))
+summary(lm.fit_sq)
+```
+
+There is evidence that model fit is better given the slight increase and decrease in R2 and RSE, respectively. However, the p-value of the t-statistic suggests that there isn’t a relationship between $y$ and $x^2$.
+
+```{r}
+set.seed(1)
+eps1 = rnorm(100, 0, 0.125)
+x1 = rnorm(100)
+y1 = -1 + 0.5*x1 + eps1
+plot(x1, y1)
+lm.fit1 = lm(y1~x1)
+summary(lm.fit1)
+abline(lm.fit1, lwd=3, col=2)
+abline(-1, 0.5, lwd=3, col=3)
+legend(-1, legend = c("model", "population"), col=2:3, lwd=3)
+```
+
+As expected, the $R^2$ increases and RSE decreases considerably.
+
+```{r}
+set.seed(1)
+eps2 = rnorm(100, 0, 0.5)
+x2 = rnorm(100)
+y2 = -1 + 0.5*x2 + eps2
+plot(x2, y2)
+lm.fit2 = lm(y2~x2)
+summary(lm.fit2)
+abline(lm.fit2, lwd=3, col=2)
+abline(-1, 0.5, lwd=3, col=3)
+legend(-1, legend = c("model", "population"), col=2:3, lwd=3)
+```
+As expected, the $R^2$ decreases and RSE increases considerably.
+
+```{r}
+confint(lm.fit)
+confint(lm.fit1)
+confint(lm.fit2)
+```
+
+All intervals seem to be centered on approximately 0.5, with the second fit’s interval being narrower than the first fit’s interval and the last fit’s interval being wider than the first fit’s interval.
+
+## Exercise 7
+
+Do Exercise 15 in chapter 3.7 of ISLR.
+
+```{r}
+library(MASS)
+summary(Boston)
+Boston$chas <- factor(Boston$chas, labels = c("N","Y"))
+X <- Boston[-1]
+crim <- Boston$crim
+coefs <- numeric(length(X))
+for (i in seq_along(X)) {
+  pred <- X[, i]
+  name <- colnames(X)[i]
+  model_summary <- summary(lm(crim ~ pred))
+  
+  print(model_summary$coefficients[2, 4])
+}
+```
+
+All, except chas.
+
+```{r}
+lm.all = lm(crim~., data=Boston)
+summary(lm.all)
+```
+
+zn, dis, rad, black, medv
+
+```{r}
+x <- coefs
+y <- coefficients(lm.all)[-1]
+plot(x,y)
+```
+
+There is a large difference for the coefficient of nox.
+
+```{r}
+for (i in seq_along(X)) {
+  pred <- X[, i]
+  name <- colnames(X)[i]
+  if(name != "chas"){
+    print(name)
+    model <- lm(crim~poly(pred,3))
+    model_summary <- summary(lm(crim ~ poly(pred,3)  ))
+    
+    pvalues <- model_summary$coefficients[3:4, 4]
+  
+    res <- ifelse(sum(pvalues < 0.05), "YES", "NO")
+    print(sprintf('Predictor %s : significant (at 5 percent) non-linear relationship? = %s', name, res))
+  }
+}
+```
+
