@@ -64,25 +64,25 @@ Optional
 
 - Week 7. 
 	- Lecture 8 (Mar. 16): Linear regression (continued)
-	- Lab 5 (Mar. 20):  Linear regression
+	- Lab 5 (Mar. 20):  Linear regression [[pdf]](labs/5-linear-regression.pdf)
 
 - Week 8. 
-	- *Assignment II* (due on ?, 23:55pm)
+	- *Assignment II* (due on April 19, 23:55pm) [[pdf]](assignments/2-linear-regression.pdf)
 	- Lecture 10 (Mar. 23): Linear regression (continued)
 	- Lab 6 (Mar. 24): Linear regression (continued)
 
 - Week 9. 
-	- *Assignment III* (due on ?, 23:55pm) 
 	- Lecture 11 (Mar. 30): 
 
 **Spring Break**
 
 - Week 10. 
-	- *Assignment IV* (due on ?, 23:55pm)
+	- *Assignment III* (due on ?, 23:55pm) 
 	- Lecture 12 (Apr. 20): 
 	- Lecture 13 (Apr. 24): 
 
 - Week 11. 
+	- *Assignment IV* (due on ?, 23:55pm)
 	- Lecture 14 (Apr. 29): 
 
 - Week 12. 
