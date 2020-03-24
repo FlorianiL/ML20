@@ -64,7 +64,7 @@ Optional
 
 - Week 7. 
 	- Lecture 8 (Mar. 16): Linear regression (continued)
-	- Lab 5 (Mar. 20):  Linear regression [[pdf]](labs/5-linear-regression.pdf)
+	- Lab 5 (Mar. 20):  Linear regression [[pdf]](labs/5-linear-regression.pdf) [[Rmd]](labs/5-linear-regression-solution.Rmd) [[pdf]](labs/5-linear-regression-solution.pdf)
 
 - Week 8. 
 	- *Assignment II* (due on April 19, 23:55pm) [[pdf]](assignments/2-linear-regression.pdf)
