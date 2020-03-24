@@ -60,7 +60,8 @@ Optional
 
 - Week 6. 
 	- Lecture 8 (Mar. 9): Linear regression [[slides]](slides/3-ml-linear-regression.pdf)
-	- Lab 4 (Mar. 9): Statistical learning [[pdf]](labs/4-statistical-learning.pdf)
+	- Lab 4 (Mar. 9): Statistical learning [[pdf]](labs/4-statistical-learning.pdf) 
+	- Lab 5 (Mar. 20):  Linear regression [[pdf]](labs/4-statistical-learning-solution.Rmd) [[ Solution (Rmd)]](labs/4-statistical-learning-solution.Rmd) [[ Solution (pdf)]](labs/5-linear-regression-solution.pdf)
 
 - Week 7. 
 	- Lecture 8 (Mar. 16): Linear regression (continued)
