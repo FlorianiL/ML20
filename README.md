@@ -68,8 +68,8 @@ Optional
 
 - Week 8. 
 	- *Assignment II* (due on ?, 23:55pm)
-	- Lecture 10 (Mar. 23): 
-	- Lab 6 (Mar. 24): 
+	- Lecture 10 (Mar. 23): Linear regression (continued)
+	- Lab 6 (Mar. 24): Linear regression (continued)
 
 - Week 9. 
 	- *Assignment III* (due on ?, 23:55pm) 
